@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Git001TestXNA", "Git001TestXNA\Git001TestXNA\Git001TestXNA.csproj", "{98824E30-1DFC-43B1-8B4C-DA6BC36D328D}"
+EndProject
+Project("{96E2B04D-8817-42C6-938A-82C39BA4D311}") = "Git001TestXNAContent", "Git001TestXNA\Git001TestXNAContent\Git001TestXNAContent.contentproj", "{4F8735DD-545B-4AA9-93E6-8177C665A1C2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{98824E30-1DFC-43B1-8B4C-DA6BC36D328D}.Debug|x86.ActiveCfg = Debug|x86
+		{98824E30-1DFC-43B1-8B4C-DA6BC36D328D}.Debug|x86.Build.0 = Debug|x86
+		{98824E30-1DFC-43B1-8B4C-DA6BC36D328D}.Release|x86.ActiveCfg = Release|x86
+		{98824E30-1DFC-43B1-8B4C-DA6BC36D328D}.Release|x86.Build.0 = Release|x86
+		{4F8735DD-545B-4AA9-93E6-8177C665A1C2}.Debug|x86.ActiveCfg = Debug|x86
+		{4F8735DD-545B-4AA9-93E6-8177C665A1C2}.Release|x86.ActiveCfg = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
