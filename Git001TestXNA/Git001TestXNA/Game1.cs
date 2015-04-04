@@ -46,7 +46,7 @@ namespace Git001TestXNA
             GraphicsDevice.Clear(Color.Yellow);
 
             spriteBatch.Begin(SpriteSortMode.Immediate, BlendState.Opaque);
-            spriteBatch.Draw(elephant, new Vector2(400, 100), Color.White);
+            spriteBatch.Draw(elephant, new Vector2(300, 100), Color.White);
             spriteBatch.End();
 
             base.Draw(gameTime);
