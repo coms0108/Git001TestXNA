@@ -41,7 +41,7 @@ namespace Git001TestXNA
 
         protected override void Draw(GameTime gameTime)
         {
-            GraphicsDevice.Clear(Color.CornflowerBlue);
+            GraphicsDevice.Clear(Color.Yellow);
 
             base.Draw(gameTime);
         }
