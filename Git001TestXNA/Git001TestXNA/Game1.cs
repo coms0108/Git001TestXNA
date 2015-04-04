@@ -15,6 +15,7 @@ namespace Git001TestXNA
     {
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
+        Texture2D elephant;
 
         public Game1()
         {
@@ -30,6 +31,7 @@ namespace Git001TestXNA
         protected override void LoadContent()
         {
             spriteBatch = new SpriteBatch(GraphicsDevice);
+            elephant = Content.Load<Texture2D>("frog_small");
         }
 
         protected override void Update(GameTime gameTime)
@@ -42,6 +44,10 @@ namespace Git001TestXNA
         protected override void Draw(GameTime gameTime)
         {
             GraphicsDevice.Clear(Color.Yellow);
+
+            spriteBatch.Begin(SpriteSortMode.Immediate, BlendState.Opaque);
+            spriteBatch.Draw(elephant, new Vector2(100, 100), Color.White);
+            spriteBatch.End();
 
             base.Draw(gameTime);
         }

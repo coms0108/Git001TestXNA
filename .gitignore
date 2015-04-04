@@ -41,3 +41,11 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
+Git001TestXNA.v12.suo
+*.xnb
+*.exe
+Git001TestXNA/Git001TestXNA/bin/
+*.cachefile
+Git001TestXNA/Git001TestXNA/obj/
+Git001TestXNA/Git001TestXNAContent/obj/
+Git001TestXNA/Git001TestXNAContent/bin/
